@@ -1,0 +1,17 @@
+{
+  "name": "iconv-lite-extecods",
+  "version": "1.0.1",
+  "description": "a external npm package for iconv-lite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "encoding"
+  ],
+  "author": "yosion-p",
+  "license": "ISC",
+  "dependencies": {
+    "safer-buffer": ">= 2.1.2 < 3.0.0"
+  }
+}
