@@ -11,6 +11,10 @@
   ],
   "author": "yosion-p",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yosion-p/iconv-lite-extEcods.git"
+  },
   "dependencies": {
     "safer-buffer": ">= 2.1.2 < 3.0.0"
   }
