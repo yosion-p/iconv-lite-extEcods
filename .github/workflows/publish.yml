@@ -3,7 +3,7 @@ name: Public Npm
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   publish:
@@ -14,12 +14,6 @@ jobs:
     environment: npm
 
     steps:
-      - uses: actions/checkout@master
-
-      - name: Install and Build 
-        run: |
-          npm install
-          npm run build # 这是我的项目的打包命令，你也可以改成你的
 
       - name: 'Publish to the npm registry'
         uses: primer/publish@3.0.0
